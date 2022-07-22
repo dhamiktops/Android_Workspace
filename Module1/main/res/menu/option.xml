@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/itm1"
-        android:title="help"/>
-
-
-    <item
-        android:id="@+id/itm2"
+        android:id="@+id/i1"
         android:title="call"/>
-
     <item
-        android:id="@+id/itm3"
+        android:id="@+id/i2"
+        android:title="help"/>
+    <item
+        android:id="@+id/i3"
         android:title="logout"/>
-
-
-
-
-
 
 </menu>

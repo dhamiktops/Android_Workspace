@@ -1,39 +1,32 @@
 package com.example.menu;
 
+import android.os.Bundle;
+import android.os.Handler;
+import android.content.Intent;
+import android.view.View;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+
 
 public class MainActivity extends AppCompatActivity
 {
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
-
-        getMenuInflater().inflate(R.menu.option_menu,menu);
-
-        return super.onCreateOptionsMenu(menu);
-    }
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        switch (item.getItemId())
-        {
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent i = new Intent(MainActivity.this, MainActivity2.class);
+                startActivity(i);
+            }
+        },3000);
 
-            case R.id.itm1:
 
-                Intent i =new Intent(MainActivity.this,AboutUsActivity.class);
-                startActivity(item);
-                break;
-
-            case R.id.itm1:
-                finishAffinity();
-                break;
-
-        }
-        return super.onOptionsItemSelected(item);
     }
 }
