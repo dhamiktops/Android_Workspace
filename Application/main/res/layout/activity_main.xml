@@ -1,37 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center"
     android:layout_height="match_parent"
+    android:background="@drawable/b5"
     android:orientation="vertical"
-    android:layout_gravity="center"
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/txt1"
+
+    <EditText
+        android:id="@+id/edt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="25sp"
-        android:layout_gravity="center" />
-
-
-
-    <Button
-        android:id="@+id/bt1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="login"
-        android:textSize="25dp"
-        android:layout_gravity="center"
-
-
-
-
-
+        android:textSize="30dp"
+        android:hint="name"
         />
 
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Choose Your Language"/>
+
+
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Android"/>
+    <CheckBox
+        android:id="@+id/ch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Java"/>
+    <CheckBox
+        android:id="@+id/ch3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Php"/>
+    <CheckBox
+        android:id="@+id/ch4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Ios"/>
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:text="Gender"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Male"/>
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Female"/>
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok"/>
+
+    </RadioGroup>
 
 </LinearLayout>
