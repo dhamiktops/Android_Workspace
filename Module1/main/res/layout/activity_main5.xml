@@ -5,13 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity5">
 
-    <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/img1"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:id="@+id/img6"
+        android:src="@drawable/logo"
         android:foregroundGravity="center"
-        android:layout_centerInParent="true"
-        android:src="@drawable/indianmoney" />
+        >
+
+
+    </ImageView>
+
+
 </RelativeLayout>
