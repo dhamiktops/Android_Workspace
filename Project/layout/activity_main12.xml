@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pro"
+    android:layout_margin="10dp"
+
+    tools:context=".MainActivity12">
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/purple_500"
+        android:textStyle="italic"
+        android:layout_height="match_parent"
+        android:text="The setjmp.h header defines the macro setjmp(), one function longjmp(), and one variable type jmp_buf, for bypassing the normal function call and return discipline."
+        android:textSize="55dp"/>
+
+</LinearLayout>
+</ScrollView>

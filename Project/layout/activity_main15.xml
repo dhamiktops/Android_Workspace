@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/pro"
+    android:layout_margin="10dp"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity15">
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/purple_500"
+        android:textStyle="italic"
+        android:layout_height="match_parent"
+        android:text="The assert.h header file of the C Standard Library provides a macro called assert which can be used to verify assumptions made by the program and print a diagnostic message if this assumption is false"
+        android:textSize="55dp"/>
+
+</LinearLayout>
+</ScrollView>
